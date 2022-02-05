@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-// import { changeFilter } from "redux/contacts/contacts-slice";
 import { contactsActions } from "redux/contacts";
 import s from "./Filter.module.css";
 

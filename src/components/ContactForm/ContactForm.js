@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import s from "./ContactForm.module.css";
 import { getNames } from "redux/contacts/contacts-selectors";
-// import { add } from "redux/contacts/contacts-slice";
 import { addContact } from "redux/contacts/contacts-operations";
 
 function ContactForm() {
