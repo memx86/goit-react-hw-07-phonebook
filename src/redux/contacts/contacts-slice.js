@@ -9,6 +9,8 @@ export const contactsSlice = createSlice({
   initialState: {
     items: [],
     filter: "",
+    loading: false,
+    error: "",
   },
   reducers: {
     changeFilter: (state, { payload }) => {
